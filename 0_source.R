@@ -3,7 +3,6 @@ library(plyr)
 library(compiler)
 library(dplyr)
 library(kohonen)
-
 path <- "https://raw.githubusercontent.com/liyujiao1026/ikea_0312/master/"
 source(paste0(path,'1_Func_SCM.R'), echo = F)
 source(paste0(path,'2_Func_cluster.R'), echo = F)
