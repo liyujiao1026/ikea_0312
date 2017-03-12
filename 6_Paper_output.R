@@ -1,4 +1,4 @@
-source('https://github.com/liyujiao1026/ikea_0312/blob/master/0_source.R')
+source('https://raw.githubusercontent.com/liyujiao1026/ikea_0312/master/0_source.R')
 
 savepath <- './Empirical_study_0312/Empirical_results/'
 
