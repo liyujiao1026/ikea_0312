@@ -1,7 +1,7 @@
-source('./0_source.R')
-
+source('https://github.com/liyujiao1026/ikea_0312/blob/master/0_source.R')
 
 savepath <- './Empirical_study_0312/Empirical_results/'
+
 invYear = 2006
 treat_ID =  2583
 clusterNumber <- 6
