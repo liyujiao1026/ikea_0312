@@ -1,8 +1,3 @@
-# function of running SCM
-
-data_firm <- read.csv("./data/IKEA_data_0312.csv")
-data_firm$Kommun_name <- as.character(data_firm$Kommun_name)
-
 
 SCM_estimate <- function(treat_ID, ctrl_ID, invYear, predictors){
             
