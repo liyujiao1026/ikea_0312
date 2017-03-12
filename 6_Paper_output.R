@@ -1,3 +1,5 @@
+source('https://github.com/liyujiao1026/ikea_0312/blob/master/0_source.R')
+
 invYear = 2006
 treat_ID =  2583
 clusterNumber <- 6
