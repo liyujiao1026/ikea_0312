@@ -1,0 +1,15 @@
+library(Synth)
+library(plyr)
+library(compiler)
+library(dplyr)
+library(kohonen)
+
+data_firm <- read.csv("/Users/Yujiao/Desktop/SCM_nru/2017/R_project/IKEA_2017/data/IKEA_data_0312.csv")
+data_firm$Kommun_name <- as.character(data_firm$Kommun_name)
+
+source('/Users/Yujiao/Desktop/SCM_nru/2017/R_project/IKEA_2017/1_Func_SCM.R', echo = F)
+source('/Users/Yujiao/Desktop/SCM_nru/2017/R_project/IKEA_2017/2_Func_cluster.R', echo = F)
+source('/Users/Yujiao/Desktop/SCM_nru/2017/R_project/IKEA_2017/3_Func_bootstrapSCM.R', echo = F)
+source('/Users/Yujiao/Desktop/SCM_nru/2017/R_project/IKEA_2017/4_Func_parametric.R', echo = F)
+source('/Users/Yujiao/Desktop/SCM_nru/2017/R_project/IKEA_2017/5_Func_paper.R', echo = F)
+source('/Users/Yujiao/Desktop/SCM_nru/2017/R_project/IKEA_2017/6_Func_paper_plot.R', echo = F)
