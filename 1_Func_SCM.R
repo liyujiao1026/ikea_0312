@@ -26,7 +26,7 @@ SCM_estimate <- function(treat_ID, ctrl_ID, invYear, predictors){
                                     # ),
                                     
                                     #dependent = "Productivity",
-                                    dependent = "EmployeeIndex",
+                                    dependent = "SalesIndex",
                                     unit.variable = "Kommun_code",
                                     time.variable = "Year",
                                     treatment.identifier = treat_ID,
